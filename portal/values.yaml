@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: nginx:stable-perl
-  tag: 0.1
+  #tag: 0.1
   pullPolicy: IfNotPresent
 
 service:
