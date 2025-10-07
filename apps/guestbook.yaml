@@ -10,8 +10,8 @@ spec:
     path: guestbook
     targetRevision: HEAD
   destination:
-    namespace: guestbook
-    name: staging # Update this value.
+    namespace: default
+    server: "https://kubernetes.default.svc" # Update this value.
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
