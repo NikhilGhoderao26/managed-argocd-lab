@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: jenkins/jenkins:jdk21
+  repository: nginx:alpine
   #tag: 0.2
   pullPolicy: IfNotPresent
 
